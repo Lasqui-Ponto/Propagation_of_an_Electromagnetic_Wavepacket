@@ -6,8 +6,7 @@ Maxwell 방정식을 Yee 격자와 Leapfrog 시간 적분으로 풀어 진공 �
 
 - `report/main.pdf`: 현재 보고서
 - `report/main.tex`, `report/images/`: 보고서 소스와 그림
-- `yee_wavepacket.py`: 문제 2·3·4의 수치 계산 및 그래프 생성
-- `verify_wavepacket_errors.py`: 보고서 4.6의 경계 진폭비 오차 분석
+- `yee_wavepacket.py`: 문제 2·3·4의 수치 계산·그래프 생성과 보고서 4.6의 경계 진폭비 오차 분석
 - `error_validation/`: 오차 분석의 기준 데이터와 계산 결과
 
 ## 실행
@@ -17,10 +16,17 @@ Python 3에서 NumPy와 Matplotlib을 설치하고 실행합니다.
 ```sh
 python -m pip install -r requirements.txt
 python yee_wavepacket.py
-python verify_wavepacket_errors.py
 ```
 
 기본 계산 결과는 `wavepacket_results/`에 저장됩니다. 오차 원인 분석 결과는 `error_validation/cause_isolation.json`에 저장됩니다.
+
+오차 원인 분석만 실행하려면 다음 명령을 사용합니다.
+
+```sh
+python yee_wavepacket.py --causal-only
+```
+
+`--output-dir`로 계산·그래프 저장 폴더를, `--validation-dir`로 오차 분석 저장 폴더를 지정할 수 있습니다. 전체 실행에서는 수치해를 오차 분석에서도 재사용합니다. 기존 `error_validation/results.json`이 있으면 기준값도 대조하며, 해당 파일이 없어도 독립적인 Fourier 예측과 오차 감소 검증을 수행합니다.
 
 ## 보고서 빌드
 

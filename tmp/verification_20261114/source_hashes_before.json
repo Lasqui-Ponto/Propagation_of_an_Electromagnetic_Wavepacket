@@ -1,0 +1,22 @@
+﻿[
+    {
+        "Path":  "C:\\Users\\k0104\\Downloads\\Propagation_of_an_Electromagnetic_Wavepacket\\yee_wavepacket.py",
+        "Hash":  "840B76C60D7E9A9A430D3DCE6A6BF704A21154ED9ABD6D4C913315BC31BC774D"
+    },
+    {
+        "Path":  "C:\\Users\\k0104\\Downloads\\Propagation_of_an_Electromagnetic_Wavepacket\\verify_wavepacket_errors.py",
+        "Hash":  "26639004DDBA5C90449AD9BE1A17C4EB8A90BD49A4341C6D29170BAF1303F43C"
+    },
+    {
+        "Path":  "C:\\Users\\k0104\\Downloads\\Propagation_of_an_Electromagnetic_Wavepacket\\report\\main.pdf",
+        "Hash":  "02328D91EA290C6BF39DD713DB928BBFF0611FA3D4A24198DA61771E3E354A19"
+    },
+    {
+        "Path":  "C:\\Users\\k0104\\Downloads\\Propagation_of_an_Electromagnetic_Wavepacket\\error_validation\\results.json",
+        "Hash":  "7736E23A315812E9B8F667043AB4281D822D282553A2B0BE6BCDC268F664FCF8"
+    },
+    {
+        "Path":  "C:\\Users\\k0104\\Downloads\\Propagation_of_an_Electromagnetic_Wavepacket\\error_validation\\cause_isolation.json",
+        "Hash":  "FAC398A0C459B0F8352AB751C31EDE75F75235A00477416D9C044FB6D153BDB4"
+    }
+]

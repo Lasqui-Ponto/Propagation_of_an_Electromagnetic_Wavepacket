@@ -1,0 +1,41 @@
+Yee FDTD: all checks passed.
+Grid: dz=0.01 m, dt=1.667820475991e-11 s, S=0.5
+Problem 2/3 time: 2/c = 6.671281904 ns
+Problem 4 return time: 10/c = 33.356409520 ns
+Amplitudes: signed E [V/m], signed B [T]
+dz: 0.01
+Ai: 0.499999998945
+Ar: -0.166649990049
+At: 0.333349935516
+Bi_T: 1.66781004445e-09
+Br_T: 5.55881056587e-10
+Bt_T: 2.22385740578e-09
+r_E: -0.333299980801
+t_E: 0.666699872439
+R_E: 0.111088877202
+T_E: 0.888977439821
+R_B: 0.111088877519
+T_B: 0.888977374268
+z_reflected: 0.000187443505751
+z_transmitted: 7.49971877667
+R_plus_T: 1.00006631702
+physical_energy_ratio: 0.999996875078
+invariant_relative_drift: 2.22044604925e-16
+R_energy: 0.11109965171
+T_energy: 0.888897223368
+original_left_energy_fraction: 0.499998437539
+Theory: r=-1/3, t=2/3, R=1/9, T=8/9.
+R and T use the incident right-going packet, Ai~0.5 V/m.
+T_E includes n2/n1=2; T_B includes v2/v1=1/2.
+Q4 snapshots: k=0,...,10; t=k/c seconds.
+k= 0, ct= 0 m, t=0.000000000 ns
+k= 1, ct= 1 m, t=3.335640952 ns
+k= 2, ct= 2 m, t=6.671281904 ns
+k= 3, ct= 3 m, t=10.006922856 ns
+k= 4, ct= 4 m, t=13.342563808 ns
+k= 5, ct= 5 m, t=16.678204760 ns
+k= 6, ct= 6 m, t=20.013845712 ns
+k= 7, ct= 7 m, t=23.349486664 ns
+k= 8, ct= 8 m, t=26.685127616 ns
+k= 9, ct= 9 m, t=30.020768568 ns
+k=10, ct=10 m, t=33.356409520 ns
